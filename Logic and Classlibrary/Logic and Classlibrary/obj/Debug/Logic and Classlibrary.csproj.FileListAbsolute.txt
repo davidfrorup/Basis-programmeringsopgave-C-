@@ -1,0 +1,8 @@
+C:\Users\davfro\source\repos\Logic and Classlibrary\Logic and Classlibrary\bin\Debug\Logic and Classlibrary.exe.config
+C:\Users\davfro\source\repos\Logic and Classlibrary\Logic and Classlibrary\bin\Debug\Logic and Classlibrary.exe
+C:\Users\davfro\source\repos\Logic and Classlibrary\Logic and Classlibrary\bin\Debug\Logic and Classlibrary.pdb
+C:\Users\davfro\source\repos\Logic and Classlibrary\Logic and Classlibrary\obj\Debug\Logic and Classlibrary.csproj.AssemblyReference.cache
+C:\Users\davfro\source\repos\Logic and Classlibrary\Logic and Classlibrary\obj\Debug\Logic and Classlibrary.csproj.SuggestedBindingRedirects.cache
+C:\Users\davfro\source\repos\Logic and Classlibrary\Logic and Classlibrary\obj\Debug\Logic and Classlibrary.csproj.CoreCompileInputs.cache
+C:\Users\davfro\source\repos\Logic and Classlibrary\Logic and Classlibrary\obj\Debug\Logic and Classlibrary.exe
+C:\Users\davfro\source\repos\Logic and Classlibrary\Logic and Classlibrary\obj\Debug\Logic and Classlibrary.pdb
