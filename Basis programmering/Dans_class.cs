@@ -26,13 +26,10 @@ namespace Basis_programmering
             Console.Write("\nHvor mange points får anden danser: ");
             int points2; while (!int.TryParse(Console.ReadLine(), out points2)) Console.WriteLine("Du skal kun bruge tal, tumpe!");
 
-
-
             Console.WriteLine("\nDanser 1 navn: " + danser1);
             Console.WriteLine("Danser 1 points: " + points1);
             Console.WriteLine("\nDanser 2 navn: " + danser2);
             Console.WriteLine("Danser 2 points: " + points2);
-
 
             var dans = new Logic_and_Classlibrary.Dans_lib();
             string samlet = dans.Dansen(points1, points2);
@@ -40,7 +37,6 @@ namespace Basis_programmering
             Console.WriteLine("\nNavne: " + danser1 + " & " + danser2 + " har " + samlet + " points samlet!");
 
             Console.WriteLine("\nTryk vilkårlig knap for at vende tilbage til menuen");
-
 
             Console.ReadKey();
 

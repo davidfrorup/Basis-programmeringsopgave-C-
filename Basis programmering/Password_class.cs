@@ -23,6 +23,7 @@ namespace Basis_programmering
             {
                 password.Opret();
             }
+
             else
             {
                 password.Login();
@@ -34,7 +35,6 @@ namespace Basis_programmering
                 var ændrer = new Password_lib();
 
                 ændrer.Ændre();
-
 
             }
 

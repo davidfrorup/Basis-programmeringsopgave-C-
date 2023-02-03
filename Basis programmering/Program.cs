@@ -16,29 +16,22 @@ namespace Basis_programmering
             var password = new Password_class();
             password.Passwordet();
 
-            //string input = "";
+            // https://docs.google.com/document/d/11rcGItv3fVdKDW1a2cRgYI247GApdGHC6XVKohEGu0c/edit?usp=sharing ¯\_(ツ)_/¯
             do
             { 
                 Console.Clear();
-                Console.WriteLine("Velkommen til vores PROGRAM OF DOOM! \n");
+                Console.WriteLine("Velkommen til Programmet der vælger programmer! \n");
                 Console.WriteLine("Her kan du vælge hvilket program du vil kører. \n");
-                Console.WriteLine("Tryk 1. for Fodbold");
-                Console.WriteLine("Tryk 2. for Dans");
-                Console.WriteLine("Tryk 3. for Password");
-                Console.WriteLine("Tryk Q. for at afslutte");
-                //int input; while (!int.TryParse(Console.ReadLine(), out input)) Console.WriteLine("Du skal kun bruge tal, tumpe!");
-                // input = Console.ReadLine();
-                // ConsoleKeyInfo key = Console.ReadKey();
+                Console.WriteLine("Tryk 1. for fodbold-programmet");
+                Console.WriteLine("Tryk 2. for danse-programmet");
+                Console.WriteLine("Tryk 3. for at ændre password");
+                Console.WriteLine("Tryk Q. for at afslutte programmet");
+               
                 ConsoleKeyInfo readKeyResult = Console.ReadKey(true);
-
-
 
                 var fodbold = new Fodbold_class();
                 var dans = new Dans_class();
                 var ændrer = new Password_class();
-
-
-               // if (input == "1")
 
                if (readKeyResult.Key == ConsoleKey.D1)
 
@@ -60,6 +53,7 @@ namespace Basis_programmering
                     Console.WriteLine("\nUgyldigt tegn");
                     Thread.Sleep(1500);
                 }
+
             } while (true);
 
             

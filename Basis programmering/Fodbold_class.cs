@@ -11,14 +11,13 @@ namespace Basis_programmering
     {
         public void Fodbolden()
         {
-            Console.Clear();
+            Console.Clear(); 
 
             Console.WriteLine("Velkommen til Fodboldprogrammet!\n");
 
                 Console.WriteLine("Hvor mange afleveringer bliver der lavet i kampen?");
 
                 int afleveringer; while (!int.TryParse(Console.ReadLine(), out afleveringer)) Console.WriteLine("Du skal kun bruge tal, tumpe!");
-                //int afleveringer = Convert.ToInt32(Console.ReadLine());
                 Console.WriteLine("Skriv 'mål' hvis der bliver scoret.");
                 string goal = Console.ReadLine();
                 var fodbold = new Logic_and_Classlibrary.Fodbold_lib();
@@ -28,7 +27,6 @@ namespace Basis_programmering
             Console.WriteLine("\nTryk vilkårlig tast for at komme tilbage til menuen");
             Console.ReadKey(); 
 
-          
         }
     }
 }
